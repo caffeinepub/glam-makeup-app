@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.75rem;
+
+    /* Warm blush-beige background: #F4E9E5 */
+    --background: 0.935 0.018 25;
+    /* Near-black #1B1B1B */
+    --foreground: 0.145 0 0;
+    /* Card background #FFF7F4 */
+    --card: 0.975 0.01 25;
+    --card-foreground: 0.145 0 0;
+    --popover: 0.975 0.01 25;
+    --popover-foreground: 0.145 0 0;
+    /* Dusty rose primary #C58B86 */
+    --primary: 0.618 0.085 18;
+    --primary-foreground: 0.985 0 0;
+    /* Pale blush header #EED6D1 */
+    --secondary: 0.885 0.03 22;
+    --secondary-foreground: 0.145 0 0;
+    --muted: 0.92 0.018 22;
+    --muted-foreground: 0.5 0.018 22;
+    /* Card borders #E6CBC6 */
+    --border: 0.855 0.03 22;
+    --input: 0.855 0.03 22;
+    --ring: 0.618 0.085 18;
+    /* Footer mauve #6B4A4E */
+    --accent: 0.44 0.05 15;
+    --accent-foreground: 0.985 0 0;
+    --destructive: 0.577 0.245 27.325;
+    --destructive-foreground: 0.985 0 0;
+    --chart-1: 0.646 0.222 41.116;
+    --chart-2: 0.6 0.118 184.704;
+    --chart-3: 0.398 0.07 227.392;
+    --chart-4: 0.828 0.189 84.429;
+    --chart-5: 0.769 0.188 70.08;
+    --sidebar: 0.885 0.03 22;
+    --sidebar-foreground: 0.145 0 0;
+    --sidebar-primary: 0.618 0.085 18;
+    --sidebar-primary-foreground: 0.985 0 0;
+    --sidebar-accent: 0.935 0.018 25;
+    --sidebar-accent-foreground: 0.145 0 0;
+    --sidebar-border: 0.855 0.03 22;
+    --sidebar-ring: 0.618 0.085 18;
+  }
+
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: "Inter", sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Playfair Display", serif;
+  }
+}
