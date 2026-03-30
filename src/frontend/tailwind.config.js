@@ -35,6 +35,14 @@ export default {
           DEFAULT: "oklch(var(--destructive))",
           foreground: "oklch(var(--destructive-foreground))",
         },
+        success: {
+          DEFAULT: "oklch(var(--success))",
+          foreground: "oklch(var(--success-foreground))",
+        },
+        warning: {
+          DEFAULT: "oklch(var(--warning))",
+          foreground: "oklch(var(--warning-foreground))",
+        },
         border: "oklch(var(--border))",
         input: "oklch(var(--input))",
         ring: "oklch(var(--ring))",
@@ -57,8 +65,8 @@ export default {
         },
       },
       fontFamily: {
-        serif: ["Playfair Display", "Georgia", "serif"],
-        sans: ["Inter", "system-ui", "sans-serif"],
+        serif: ["Fraunces", "Georgia", "serif"],
+        sans: ["Plus Jakarta Sans", "system-ui", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -66,8 +74,8 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       boxShadow: {
-        card: "0 2px 16px -4px oklch(0.618 0.085 18 / 0.1)",
-        "card-hover": "0 8px 32px -8px oklch(0.618 0.085 18 / 0.2)",
+        card: "0 2px 16px -4px oklch(0.52 0.18 290 / 0.1)",
+        "card-hover": "0 8px 32px -8px oklch(0.52 0.18 290 / 0.22)",
       },
     },
   },

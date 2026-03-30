@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Fraunces:ital,wght@0,400;0,600;0,700;1,400&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -8,45 +8,52 @@
   :root {
     --radius: 0.75rem;
 
-    /* Warm blush-beige background: #F4E9E5 */
-    --background: 0.935 0.018 25;
-    /* Near-black #1B1B1B */
-    --foreground: 0.145 0 0;
-    /* Card background #FFF7F4 */
-    --card: 0.975 0.01 25;
-    --card-foreground: 0.145 0 0;
-    --popover: 0.975 0.01 25;
-    --popover-foreground: 0.145 0 0;
-    /* Dusty rose primary #C58B86 */
-    --primary: 0.618 0.085 18;
-    --primary-foreground: 0.985 0 0;
-    /* Pale blush header #EED6D1 */
-    --secondary: 0.885 0.03 22;
-    --secondary-foreground: 0.145 0 0;
-    --muted: 0.92 0.018 22;
-    --muted-foreground: 0.5 0.018 22;
-    /* Card borders #E6CBC6 */
-    --border: 0.855 0.03 22;
-    --input: 0.855 0.03 22;
-    --ring: 0.618 0.085 18;
-    /* Footer mauve #6B4A4E */
-    --accent: 0.44 0.05 15;
-    --accent-foreground: 0.985 0 0;
+    /* Soft lavender-white background */
+    --background: 0.972 0.008 285;
+    /* Deep indigo foreground */
+    --foreground: 0.18 0.04 280;
+    /* Card white */
+    --card: 0.99 0.004 285;
+    --card-foreground: 0.18 0.04 280;
+    --popover: 0.99 0.004 285;
+    --popover-foreground: 0.18 0.04 280;
+    /* Primary: warm violet #7C3AED-ish */
+    --primary: 0.52 0.18 290;
+    --primary-foreground: 0.99 0 0;
+    /* Secondary: soft lavender */
+    --secondary: 0.9 0.04 290;
+    --secondary-foreground: 0.18 0.04 280;
+    --muted: 0.93 0.02 285;
+    --muted-foreground: 0.52 0.03 285;
+    /* Border lavender */
+    --border: 0.875 0.035 285;
+    --input: 0.875 0.035 285;
+    --ring: 0.52 0.18 290;
+    /* Accent: warm teal */
+    --accent: 0.58 0.14 195;
+    --accent-foreground: 0.99 0 0;
+    /* Danger red */
     --destructive: 0.577 0.245 27.325;
     --destructive-foreground: 0.985 0 0;
-    --chart-1: 0.646 0.222 41.116;
-    --chart-2: 0.6 0.118 184.704;
-    --chart-3: 0.398 0.07 227.392;
-    --chart-4: 0.828 0.189 84.429;
-    --chart-5: 0.769 0.188 70.08;
-    --sidebar: 0.885 0.03 22;
-    --sidebar-foreground: 0.145 0 0;
-    --sidebar-primary: 0.618 0.085 18;
-    --sidebar-primary-foreground: 0.985 0 0;
-    --sidebar-accent: 0.935 0.018 25;
-    --sidebar-accent-foreground: 0.145 0 0;
-    --sidebar-border: 0.855 0.03 22;
-    --sidebar-ring: 0.618 0.085 18;
+    /* Success green */
+    --success: 0.56 0.14 155;
+    --success-foreground: 0.99 0 0;
+    /* Warning amber */
+    --warning: 0.72 0.15 75;
+    --warning-foreground: 0.18 0.04 280;
+    --chart-1: 0.52 0.18 290;
+    --chart-2: 0.58 0.14 195;
+    --chart-3: 0.72 0.15 75;
+    --chart-4: 0.577 0.245 27.325;
+    --chart-5: 0.56 0.14 155;
+    --sidebar: 0.9 0.04 290;
+    --sidebar-foreground: 0.18 0.04 280;
+    --sidebar-primary: 0.52 0.18 290;
+    --sidebar-primary-foreground: 0.99 0 0;
+    --sidebar-accent: 0.972 0.008 285;
+    --sidebar-accent-foreground: 0.18 0.04 280;
+    --sidebar-border: 0.875 0.035 285;
+    --sidebar-ring: 0.52 0.18 290;
   }
 
   * {
@@ -54,7 +61,7 @@
   }
   body {
     @apply bg-background text-foreground;
-    font-family: "Inter", sans-serif;
+    font-family: "Plus Jakarta Sans", sans-serif;
   }
 
   h1,
@@ -63,6 +70,6 @@
   h4,
   h5,
   h6 {
-    font-family: "Playfair Display", serif;
+    font-family: "Fraunces", serif;
   }
 }
